@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>1d1a4450-851c-4bec-a846-da2887c959ab</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+<!---->    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+<!--    <PackageReference Include="System.DirectoryServices" Version="9.0.0" />
+    <PackageReference Include="System.Text.Json" Version="9.0.4" />
+-->  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkFlowEngine.Domain\WorkFlowEngine.Domain.csproj" />
+    <ProjectReference Include="..\WorkFlowEngine.Infrastructure\WorkFlowEngine.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
