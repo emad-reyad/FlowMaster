@@ -48,7 +48,7 @@ namespace WorkFlowEngine.Shared
             public static readonly string NoCancelAction = "Can not find configured cancel action.";
             public static readonly string NoReleaseAction = "Can not find configured release action.";
             public static readonly string ActionNotAllowed = "this action is not allowed for this activity.";
-            public static readonly string NoAssingnee = "The task assignee is empty.";
+            public static readonly string NoAssignee = "The task assignee is empty.";
             public static readonly string TaskOpened = "The task already Opened.";
             public static readonly string NotAuthorized = "The user has no access to this task.";
             public static readonly string NotFound = "Can not found any data by this criteria.";

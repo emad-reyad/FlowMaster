@@ -17,7 +17,7 @@ namespace WorkFlowEngine.Application.Features.ProcessManager.Shared.Helper
             if (instance.ProcessInstanceUsers is null || instance.ProcessInstanceUsers.Count == 0 || userGroups is null || userGroups.Count == 0)
                 return new Result<bool>(false, new List<KeyValuePair<string, string>>
                 {
-                   new KeyValuePair<string, string>(nameof(Constants.Error.NoAssingnee), Constants.Error.NoAssingnee)
+                   new KeyValuePair<string, string>(nameof(Constants.Error.NoAssignee), Constants.Error.NoAssignee)
                 });
             if (userGroups.Contains(Constants.Roles.PowerUser))
                 hasAccess = true;
