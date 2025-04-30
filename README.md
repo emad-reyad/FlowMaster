@@ -20,6 +20,5 @@ A modular, scalable **Workflow Engine** developed in **C# (.NET Core 9)** for ma
   - Optimized for performance with configurable **in-memory or distributed caching**.
 
 ---
-
-## 🧩 Architecture Overview
+ 
 
